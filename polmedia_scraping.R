@@ -82,4 +82,5 @@ media_politicians <-
   # Binding all individual results into a single data frame
   bind_rows()
 
-write_csv("polmedia.csv")
+write_csv(media_politicians, "polmedia.csv")
+
